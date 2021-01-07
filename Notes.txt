@@ -1,0 +1,30 @@
+$ rails new class_notes
+
+$ bundle add activeadmin
+
+$ bundle add devise
+
+$ rails g active_admin:install
+    Creates the following:
+    generate    devise:install
+    create    config/initializers/devise.rb
+    create    config/locales/devise.en.yml
+
+$ rails g model Subject name
+
+$ rails db:migrate
+
+$ rails g active_admin:resource Subject
+
+$ rails g model note title body:text subject:belongs_to
+    creates:
+    invoke  active_record
+     create    db/migrate/20210107220546_create_notes.rb
+     create    app/models/note.rb
+     invoke    test_unit
+     create      test/models/note_test.rb
+     create      test/fixtures/notes.yml
+
+$ rails db:migrate
+
+$ rails g active_admin:resource note

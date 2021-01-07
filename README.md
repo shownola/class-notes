@@ -1,11 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a rails 6 application using Active Admin for administrative backend.
 
-Things you may want to cover:
+* Ruby version 2.6.3
 
-* Ruby version
+* Rails 6.0.3
+
+* Active Admin Gem
+
+* Devise Gem
 
 * System dependencies
 
