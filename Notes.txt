@@ -28,3 +28,5 @@ $ rails g model note title body:text subject:belongs_to
 $ rails db:migrate
 
 $ rails g active_admin:resource note
+
+$ rails db:seed
