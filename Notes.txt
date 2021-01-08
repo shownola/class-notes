@@ -30,3 +30,6 @@ $ rails db:migrate
 $ rails g active_admin:resource note
 
 $ rails db:seed
+
+// Add quill editor:
+$ bundle add activeadmin_quill_editor
